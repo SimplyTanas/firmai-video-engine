@@ -6,12 +6,28 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
 # Environment & Secrets (Crucial: do not commit API keys)
 .env
 .env.local
 .env.*.local
 *.env
 !.env.example
+.youtube-token.json
+gcp-*.json
+*-service-account.json
+service-account*.json
+service_account*.json
 
 # Build & Renders
 renders/
@@ -22,7 +38,31 @@ build/
 */build/
 .cache/
 */.cache/
+output/
+pipeline/
+projects/
+corpus/
+**/corpus/
+music_library/
+.backlot/
+.runtime/
+remotion-composer/out/
+remotion-composer/projects/
 .hyperframes/artifacts/
+**/.hyperframes/artifacts/
+**/.hyperframes/preview/
+**/.hyperframes/cache/
+
+# User Personal Projects & Workspaces (Never pushed to git)
+my-video/
+hyperframes-demo/
+scratch/
+*.mp3
+*.wav
+*.mp4
+*.mov
+
+
 
 # OS and Editor files
 .DS_Store
@@ -35,3 +75,6 @@ Thumbs.db
 # Temporary video outputs and caches
 *.tmp
 /tmp/
+pexels_video_*.mp4
+pixabay_music_*
+
