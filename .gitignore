@@ -62,6 +62,12 @@ scratch/
 *.mp4
 *.mov
 
+# Impeccable Binaries & Local Settings
+**/impeccable/scripts/bin/
+**/scripts/bin/
+.claude/settings.local.json
+
+
 
 
 # OS and Editor files

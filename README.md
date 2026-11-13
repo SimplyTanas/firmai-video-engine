@@ -1,7 +1,7 @@
 # FirmAI Video & Creative Engine 🎬✨
 
-> **The first open-source, agentic video production studio powered by the OpenMontage architecture.**  
-> Biến AI Coding Assistant thành một Studio Sản Xuất Video Toàn Diện: 12 Pipeline Chuyên Nghiệp, 150+ Công Cụ, 109 Kỹ Năng Tác Tử (Agent Skills) và 3 Bộ Máy Render (Remotion, HyperFrames, FFmpeg).
+> **The first open-source, agentic video production studio powered by the OpenMontage architecture & Impeccable Design System.**  
+> Biến AI Coding Assistant thành một Studio Sản Xuất Video Toàn Diện: 12 Pipeline Chuyên Nghiệp, 150+ Công Cụ, 110 Kỹ Năng Tác Tử (Agent Skills), Thiết Kế Chống Slop Impeccable và 3 Bộ Máy Render (Remotion, HyperFrames, FFmpeg).
 
 ---
 
@@ -59,7 +59,7 @@ Hệ thống phân tách năng lực rõ ràng theo triết lý của OpenMontag
   - `skills/creative/`: Bí quyết điện ảnh (Cinematography, Storytelling, Sound Design, Prompting Sora/Veo/Kling/Wan/LTX, Color Grading).
   - `skills/core/`: Remotion, HyperFrames, FFmpeg, WhisperX Subtitles.
   - `skills/meta/`: Tự đánh giá (`reviewer.md`), chốt mốc (`checkpoint-protocol.md`), phân tích video mẫu (`video-reference-analyst.md`).
-- **Layer 3: Kỹ Năng Tác Tử Chuyên Sâu (`.agents/skills/`)**: 109 bộ tri thức chi tiết cấp API/Framework dành cho trợ lý AI.
+- **Layer 3: Kỹ Năng Tác Tử Chuyên Sâu (`.agents/skills/`)**: 110 bộ tri thức chi tiết cấp API/Framework dành cho trợ lý AI (bao gồm hệ thống thiết kế chống AI-Slop Impeccable).
 
 ---
 
@@ -83,17 +83,19 @@ tools/
 
 ---
 
-## 🎨 109 Kỹ Năng Tác Tử Hàng Đầu (`.agents/skills/`)
+## 🎨 110 Kỹ Năng Tác Tử Hàng Đầu (`.agents/skills/`)
 
-Bao gồm trọn vẹn 16 kỹ năng sáng tạo nền tảng của FirmAI cộng thêm 93 kỹ năng chuyên sâu từ OpenMontage:
+Bao gồm trọn vẹn 16 kỹ năng sáng tạo nền tảng của FirmAI, 93 kỹ năng chuyên sâu từ OpenMontage và hệ thống thiết kế chống AI Slop **Impeccable**:
 
-1. **Video Engines**: `remotion`, `remotion-best-practices`, `hyperframes`, `hyperframes-animation`, `hyperframes-cli`, `hyperframes-core`, `remotion-to-hyperframes`, `ffmpeg`, `video-edit`, `video-download`, `video-understand`.
-2. **3D & Đồ họa**: `threejs-animation`, `threejs-geometry`, `threejs-lighting`, `threejs-loaders`, `threejs-materials`, `threejs-shaders`, `threejs-world-generation`, `3d-asset-generation`, `atlas-cloud`, `d3-viz`, `manim-composer`, `canvas-design`, `algorithmic-art`, `anydesign`.
-3. **Chuyển động & Diễn họa**: `gsap`, `gsap-core`, `gsap-timeline`, `gsap-scrolltrigger`, `gsap-react`, `framer-motion`, `canvas-procedural-animation`, `character-rigging`, `svg-character-animation`, `lottie-bodymovin`, `slack-gif-creator`.
-4. **Mô hình Video AI**: `ai-video-gen`, `kling-official`, `seedance-2-0`, `seedance-2-5`, `minimax-h3`, `pika-h3-flex`, `ltx2`, `faceswap`, `avatar-video`, `heygen`.
-5. **Hình ảnh & Prompting**: `flux-best-practices`, `bfl-api`, `gemini-omni`, `grok-media`, `dashscope`, `frontend-design`, `image-enhancer`.
-6. **Âm thanh & Thuyết minh**: `elevenlabs`, `azure-text-to-speech`, `azure-speech-to-text`, `fish-audio-tts`, `doubao-tts`, `text-to-speech`, `speech-to-text`, `music`, `music-to-video`, `sound-effects`, `lyria`, `acestep`.
-7. **Nghiên cứu & Thiết kế**: `content-research-writer`, `doc-coauthoring`, `youtube-transcript`, `article-extractor`, `brand-guidelines`, `theme-factory`, `tailwind-design-system`, `modern-web-guidance`, `web-artifacts-builder`, `pptx`, `file-organizer`.
+1. **Design Vocabulary & Anti-Slop (`impeccable`)**: 24 lệnh điều hướng thẩm mỹ (`/bolder`, `/quieter`, `/critique`, `/audit`, `/polish`, `/harden`, `/distill`, `/delight`, v.v.) và 62 luật kiểm duyệt tự động phát hiện thiết kế rập khuôn AI.
+2. **Video Engines**: `remotion`, `remotion-best-practices`, `hyperframes`, `hyperframes-animation`, `hyperframes-cli`, `hyperframes-core`, `remotion-to-hyperframes`, `ffmpeg`, `video-edit`, `video-download`, `video-understand`.
+3. **3D & Đồ họa**: `threejs-animation`, `threejs-geometry`, `threejs-lighting`, `threejs-loaders`, `threejs-materials`, `threejs-shaders`, `threejs-world-generation`, `3d-asset-generation`, `atlas-cloud`, `d3-viz`, `manim-composer`, `canvas-design`, `algorithmic-art`, `anydesign`.
+4. **Chuyển động & Diễn họa**: `gsap`, `gsap-core`, `gsap-timeline`, `gsap-scrolltrigger`, `gsap-react`, `framer-motion`, `canvas-procedural-animation`, `character-rigging`, `svg-character-animation`, `lottie-bodymovin`, `slack-gif-creator`.
+5. **Mô hình Video AI**: `ai-video-gen`, `kling-official`, `seedance-2-0`, `seedance-2-5`, `minimax-h3`, `pika-h3-flex`, `ltx2`, `faceswap`, `avatar-video`, `heygen`.
+6. **Hình ảnh & Prompting**: `flux-best-practices`, `bfl-api`, `gemini-omni`, `grok-media`, `dashscope`, `frontend-design`, `image-enhancer`.
+7. **Âm thanh & Thuyết minh**: `elevenlabs`, `azure-text-to-speech`, `azure-speech-to-text`, `fish-audio-tts`, `doubao-tts`, `text-to-speech`, `speech-to-text`, `music`, `music-to-video`, `sound-effects`, `lyria`, `acestep`.
+8. **Nghiên cứu & Thiết kế**: `content-research-writer`, `doc-coauthoring`, `youtube-transcript`, `article-extractor`, `brand-guidelines`, `theme-factory`, `tailwind-design-system`, `modern-web-guidance`, `web-artifacts-builder`, `pptx`, `file-organizer`.
+
 
 ---
 
