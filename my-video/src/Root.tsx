@@ -37,10 +37,91 @@ import {
   EzSuTrueStyleSchema,
   TOTAL_EZSU_TRUE_FRAMES,
 } from "./EzSuTrueStyle";
+import {
+  CanvasSfoNrbo,
+  CanvasSfoNrboSchema,
+  TOTAL_CANVAS_SFO_NRBO_FRAMES,
+  CANVAS_SCENE_DURATIONS,
+} from "./CanvasSfoNrbo";
+import { Scene1_Landscape } from "./CanvasSfoNrbo/Scene1_Landscape";
+import { Scene2_SfoSwarm } from "./CanvasSfoNrbo/Scene2_SfoSwarm";
+import { Scene3_NrboNewton } from "./CanvasSfoNrbo/Scene3_NrboNewton";
+import { Scene4_HybridSynthesis } from "./CanvasSfoNrbo/Scene4_HybridSynthesis";
+import { Scene5_Applications } from "./CanvasSfoNrbo/Scene5_Applications";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      {/* ========================================================= */}
+      {/* 0. CANVAS DESIGN: SFO & NRBO HYBRID OPTIMIZATION          */}
+      {/* ========================================================= */}
+      <Composition
+        id="CanvasSfoNrbo"
+        component={CanvasSfoNrbo}
+        durationInFrames={TOTAL_CANVAS_SFO_NRBO_FRAMES} // 4140 frames (138s = 2m18s)
+        fps={30}
+        width={1920}
+        height={1080}
+        schema={CanvasSfoNrboSchema}
+        defaultProps={{
+          enableAudio: true,
+          showDebugRulers: true,
+        }}
+      />
+
+      <Folder name="CanvasSfoNrbo-Scenes">
+        <Composition
+          id="Canvas-Scene1-Landscape"
+          component={() => (
+            <Scene1_Landscape durationInFrames={CANVAS_SCENE_DURATIONS.s1} />
+          )}
+          durationInFrames={CANVAS_SCENE_DURATIONS.s1}
+          fps={30}
+          width={1920}
+          height={1080}
+        />
+        <Composition
+          id="Canvas-Scene2-SfoSwarm"
+          component={() => (
+            <Scene2_SfoSwarm durationInFrames={CANVAS_SCENE_DURATIONS.s2} />
+          )}
+          durationInFrames={CANVAS_SCENE_DURATIONS.s2}
+          fps={30}
+          width={1920}
+          height={1080}
+        />
+        <Composition
+          id="Canvas-Scene3-NrboNewton"
+          component={() => (
+            <Scene3_NrboNewton durationInFrames={CANVAS_SCENE_DURATIONS.s3} />
+          )}
+          durationInFrames={CANVAS_SCENE_DURATIONS.s3}
+          fps={30}
+          width={1920}
+          height={1080}
+        />
+        <Composition
+          id="Canvas-Scene4-HybridSynthesis"
+          component={() => (
+            <Scene4_HybridSynthesis durationInFrames={CANVAS_SCENE_DURATIONS.s4} />
+          )}
+          durationInFrames={CANVAS_SCENE_DURATIONS.s4}
+          fps={30}
+          width={1920}
+          height={1080}
+        />
+        <Composition
+          id="Canvas-Scene5-Applications"
+          component={() => (
+            <Scene5_Applications durationInFrames={CANVAS_SCENE_DURATIONS.s5} />
+          )}
+          durationInFrames={CANVAS_SCENE_DURATIONS.s5}
+          fps={30}
+          width={1920}
+          height={1080}
+        />
+      </Folder>
+
       {/* ========================================================= */}
       {/* 1. TRUE EZ SỬ STYLE: MAP ANIMATION (MATCHING SCREENSHOT)   */}
       {/* ========================================================= */}
