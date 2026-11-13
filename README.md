@@ -43,9 +43,3 @@ Toàn bộ 16 kỹ năng được cài đặt sẵn tại `.agents/skills/`:
 
 ---
 
-## 🚀 Đẩy mã nguồn lên GitHub
-
-```bash
-git remote add origin https://github.com/USERNAME/REPO_NAME.git
-git push -u origin main
-```
