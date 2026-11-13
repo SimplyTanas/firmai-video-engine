@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "historyId": "03d102f2-e538-4c6e-9d99-d62f9ab22811",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "AGENTS.md": {
+      "hash": "268ff46777938da818baa92a718571785e9acf2cef2d3ffbacbb93483dcba37a",
+      "content": "/home/tanasserver/.cache/hyperframes/history/03d102f2-e538-4c6e-9d99-d62f9ab22811/blobs/26/268ff46777938da818baa92a718571785e9acf2cef2d3ffbacbb93483dcba37a"
+    },
+    "CLAUDE.md": {
+      "hash": "268ff46777938da818baa92a718571785e9acf2cef2d3ffbacbb93483dcba37a",
+      "content": "/home/tanasserver/.cache/hyperframes/history/03d102f2-e538-4c6e-9d99-d62f9ab22811/blobs/26/268ff46777938da818baa92a718571785e9acf2cef2d3ffbacbb93483dcba37a"
+    },
+    "hyperframes.json": {
+      "hash": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "content": "/home/tanasserver/.cache/hyperframes/history/03d102f2-e538-4c6e-9d99-d62f9ab22811/blobs/53/53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
+    },
+    "index.html": {
+      "hash": "bb26a8f483c4b8ed34f95e1a3fd8bd97e06440351dcb1c24c71d2abdbb1a1d15",
+      "content": "/home/tanasserver/.cache/hyperframes/history/03d102f2-e538-4c6e-9d99-d62f9ab22811/blobs/bb/bb26a8f483c4b8ed34f95e1a3fd8bd97e06440351dcb1c24c71d2abdbb1a1d15"
+    },
+    "meta.json": {
+      "hash": "a7c15225eb3fb0012d68bb0420c339ed2472079136d9b054a222a10017854704",
+      "content": "/home/tanasserver/.cache/hyperframes/history/03d102f2-e538-4c6e-9d99-d62f9ab22811/blobs/a7/a7c15225eb3fb0012d68bb0420c339ed2472079136d9b054a222a10017854704"
+    },
+    "package.json": {
+      "hash": "5cf780717eb5d84ff2833dea5d2527fe8011c2ab0ccf90af93e56c33a6a71354",
+      "content": "/home/tanasserver/.cache/hyperframes/history/03d102f2-e538-4c6e-9d99-d62f9ab22811/blobs/5c/5cf780717eb5d84ff2833dea5d2527fe8011c2ab0ccf90af93e56c33a6a71354"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": {
+      "revision": null,
+      "id": "9d5607fa-10ec-4bf0-9a91-e7bf3e180a3e"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "id": "9d5607fa-10ec-4bf0-9a91-e7bf3e180a3e",
+        "scope": "project",
+        "report": "/home/tanasserver/FirmAI/hyperframes-demo/.hyperframes/artifacts/checks/9d5607fa-10ec-4bf0-9a91-e7bf3e180a3e.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 45000,
+            "cache": true,
+            "contrast": true,
+            "craft": true,
+            "strict": false,
+            "snapshots": false,
+            "browserGpuMode": "auto",
+            "includeUnmounted": false
+          }
+        },
+        "createdAt": 1794582265291,
+        "contentHash": "b519d8eeb9db8cfc3469d26082451a075e109f3a5888c09590f2d38bcafcdcb4",
+        "revision": null,
+        "inputFingerprint": "29f06578fbb8710293613bf650cb981638b17a806548c57155e20c7eaf71c900",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  }
+}
